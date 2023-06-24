@@ -1,6 +1,7 @@
 import {allDocs} from '../../../../.contentlayer/generated'
 import {notFound} from 'next/navigation'
 import { MdxComponents } from '../../../../components/mdx-components'
+import "../../../../styles/mdx.css";
 import { cn } from '../../../../lib/utils'
 async function getDocFromParams(slug){
   const doc = allDocs.find((doc) => doc.slugAsParams === slug)

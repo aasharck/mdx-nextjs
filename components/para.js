@@ -1,6 +1,6 @@
 const Para = ({paragraph}) => {
   return (
-    <p className="pb-4 text-red-400">{paragraph}</p>
+    <p className="p-5 hover:text-red-500 shadow rounded-lg">{paragraph}</p>
   )
 }
 
